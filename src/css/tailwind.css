@@ -1046,6 +1046,38 @@ video {
   background-color: #702459;
 }
 
+.bg-sidebar-background-color-light {
+  background-color: #c5cad2;
+}
+
+.bg-list-view-background-color-light {
+  background-color: #6986c9;
+}
+
+.bg-sidebar-background-color-dark {
+  background-color: #282e36;
+}
+
+.bg-list-view-background-color-dark {
+  background-color: #1e1e1e;
+}
+
+.bg-search-input-background-light {
+  background-color: #b0b5bd;
+}
+
+.bg-search-input-background-dark {
+  background-color: #383d45;
+}
+
+.bg-list-item-background-dark {
+  background-color: #323232;
+}
+
+.bg-select-options-background-light {
+  background-color: #5568ac;
+}
+
 .hover\:bg-transparent:hover {
   background-color: transparent;
 }
@@ -1418,6 +1450,38 @@ video {
   background-color: #702459;
 }
 
+.hover\:bg-sidebar-background-color-light:hover {
+  background-color: #c5cad2;
+}
+
+.hover\:bg-list-view-background-color-light:hover {
+  background-color: #6986c9;
+}
+
+.hover\:bg-sidebar-background-color-dark:hover {
+  background-color: #282e36;
+}
+
+.hover\:bg-list-view-background-color-dark:hover {
+  background-color: #1e1e1e;
+}
+
+.hover\:bg-search-input-background-light:hover {
+  background-color: #b0b5bd;
+}
+
+.hover\:bg-search-input-background-dark:hover {
+  background-color: #383d45;
+}
+
+.hover\:bg-list-item-background-dark:hover {
+  background-color: #323232;
+}
+
+.hover\:bg-select-options-background-light:hover {
+  background-color: #5568ac;
+}
+
 .focus\:bg-transparent:focus {
   background-color: transparent;
 }
@@ -1788,6 +1852,38 @@ video {
 
 .focus\:bg-pink-900:focus {
   background-color: #702459;
+}
+
+.focus\:bg-sidebar-background-color-light:focus {
+  background-color: #c5cad2;
+}
+
+.focus\:bg-list-view-background-color-light:focus {
+  background-color: #6986c9;
+}
+
+.focus\:bg-sidebar-background-color-dark:focus {
+  background-color: #282e36;
+}
+
+.focus\:bg-list-view-background-color-dark:focus {
+  background-color: #1e1e1e;
+}
+
+.focus\:bg-search-input-background-light:focus {
+  background-color: #b0b5bd;
+}
+
+.focus\:bg-search-input-background-dark:focus {
+  background-color: #383d45;
+}
+
+.focus\:bg-list-item-background-dark:focus {
+  background-color: #323232;
+}
+
+.focus\:bg-select-options-background-light:focus {
+  background-color: #5568ac;
 }
 
 .bg-bottom {
@@ -2242,6 +2338,38 @@ video {
   border-color: #702459;
 }
 
+.border-sidebar-background-color-light {
+  border-color: #c5cad2;
+}
+
+.border-list-view-background-color-light {
+  border-color: #6986c9;
+}
+
+.border-sidebar-background-color-dark {
+  border-color: #282e36;
+}
+
+.border-list-view-background-color-dark {
+  border-color: #1e1e1e;
+}
+
+.border-search-input-background-light {
+  border-color: #b0b5bd;
+}
+
+.border-search-input-background-dark {
+  border-color: #383d45;
+}
+
+.border-list-item-background-dark {
+  border-color: #323232;
+}
+
+.border-select-options-background-light {
+  border-color: #5568ac;
+}
+
 .hover\:border-transparent:hover {
   border-color: transparent;
 }
@@ -2614,6 +2742,38 @@ video {
   border-color: #702459;
 }
 
+.hover\:border-sidebar-background-color-light:hover {
+  border-color: #c5cad2;
+}
+
+.hover\:border-list-view-background-color-light:hover {
+  border-color: #6986c9;
+}
+
+.hover\:border-sidebar-background-color-dark:hover {
+  border-color: #282e36;
+}
+
+.hover\:border-list-view-background-color-dark:hover {
+  border-color: #1e1e1e;
+}
+
+.hover\:border-search-input-background-light:hover {
+  border-color: #b0b5bd;
+}
+
+.hover\:border-search-input-background-dark:hover {
+  border-color: #383d45;
+}
+
+.hover\:border-list-item-background-dark:hover {
+  border-color: #323232;
+}
+
+.hover\:border-select-options-background-light:hover {
+  border-color: #5568ac;
+}
+
 .focus\:border-transparent:focus {
   border-color: transparent;
 }
@@ -2984,6 +3144,38 @@ video {
 
 .focus\:border-pink-900:focus {
   border-color: #702459;
+}
+
+.focus\:border-sidebar-background-color-light:focus {
+  border-color: #c5cad2;
+}
+
+.focus\:border-list-view-background-color-light:focus {
+  border-color: #6986c9;
+}
+
+.focus\:border-sidebar-background-color-dark:focus {
+  border-color: #282e36;
+}
+
+.focus\:border-list-view-background-color-dark:focus {
+  border-color: #1e1e1e;
+}
+
+.focus\:border-search-input-background-light:focus {
+  border-color: #b0b5bd;
+}
+
+.focus\:border-search-input-background-dark:focus {
+  border-color: #383d45;
+}
+
+.focus\:border-list-item-background-dark:focus {
+  border-color: #323232;
+}
+
+.focus\:border-select-options-background-light:focus {
+  border-color: #5568ac;
 }
 
 .rounded-none {
@@ -6174,6 +6366,38 @@ video {
   color: #702459;
 }
 
+.placeholder-sidebar-background-color-light::placeholder {
+  color: #c5cad2;
+}
+
+.placeholder-list-view-background-color-light::placeholder {
+  color: #6986c9;
+}
+
+.placeholder-sidebar-background-color-dark::placeholder {
+  color: #282e36;
+}
+
+.placeholder-list-view-background-color-dark::placeholder {
+  color: #1e1e1e;
+}
+
+.placeholder-search-input-background-light::placeholder {
+  color: #b0b5bd;
+}
+
+.placeholder-search-input-background-dark::placeholder {
+  color: #383d45;
+}
+
+.placeholder-list-item-background-dark::placeholder {
+  color: #323232;
+}
+
+.placeholder-select-options-background-light::placeholder {
+  color: #5568ac;
+}
+
 .focus\:placeholder-transparent:focus::placeholder {
   color: transparent;
 }
@@ -6544,6 +6768,38 @@ video {
 
 .focus\:placeholder-pink-900:focus::placeholder {
   color: #702459;
+}
+
+.focus\:placeholder-sidebar-background-color-light:focus::placeholder {
+  color: #c5cad2;
+}
+
+.focus\:placeholder-list-view-background-color-light:focus::placeholder {
+  color: #6986c9;
+}
+
+.focus\:placeholder-sidebar-background-color-dark:focus::placeholder {
+  color: #282e36;
+}
+
+.focus\:placeholder-list-view-background-color-dark:focus::placeholder {
+  color: #1e1e1e;
+}
+
+.focus\:placeholder-search-input-background-light:focus::placeholder {
+  color: #b0b5bd;
+}
+
+.focus\:placeholder-search-input-background-dark:focus::placeholder {
+  color: #383d45;
+}
+
+.focus\:placeholder-list-item-background-dark:focus::placeholder {
+  color: #323232;
+}
+
+.focus\:placeholder-select-options-background-light:focus::placeholder {
+  color: #5568ac;
 }
 
 .pointer-events-none {
@@ -7157,6 +7413,38 @@ video {
   color: #702459;
 }
 
+.text-sidebar-background-color-light {
+  color: #c5cad2;
+}
+
+.text-list-view-background-color-light {
+  color: #6986c9;
+}
+
+.text-sidebar-background-color-dark {
+  color: #282e36;
+}
+
+.text-list-view-background-color-dark {
+  color: #1e1e1e;
+}
+
+.text-search-input-background-light {
+  color: #b0b5bd;
+}
+
+.text-search-input-background-dark {
+  color: #383d45;
+}
+
+.text-list-item-background-dark {
+  color: #323232;
+}
+
+.text-select-options-background-light {
+  color: #5568ac;
+}
+
 .hover\:text-transparent:hover {
   color: transparent;
 }
@@ -7529,6 +7817,38 @@ video {
   color: #702459;
 }
 
+.hover\:text-sidebar-background-color-light:hover {
+  color: #c5cad2;
+}
+
+.hover\:text-list-view-background-color-light:hover {
+  color: #6986c9;
+}
+
+.hover\:text-sidebar-background-color-dark:hover {
+  color: #282e36;
+}
+
+.hover\:text-list-view-background-color-dark:hover {
+  color: #1e1e1e;
+}
+
+.hover\:text-search-input-background-light:hover {
+  color: #b0b5bd;
+}
+
+.hover\:text-search-input-background-dark:hover {
+  color: #383d45;
+}
+
+.hover\:text-list-item-background-dark:hover {
+  color: #323232;
+}
+
+.hover\:text-select-options-background-light:hover {
+  color: #5568ac;
+}
+
 .focus\:text-transparent:focus {
   color: transparent;
 }
@@ -7899,6 +8219,38 @@ video {
 
 .focus\:text-pink-900:focus {
   color: #702459;
+}
+
+.focus\:text-sidebar-background-color-light:focus {
+  color: #c5cad2;
+}
+
+.focus\:text-list-view-background-color-light:focus {
+  color: #6986c9;
+}
+
+.focus\:text-sidebar-background-color-dark:focus {
+  color: #282e36;
+}
+
+.focus\:text-list-view-background-color-dark:focus {
+  color: #1e1e1e;
+}
+
+.focus\:text-search-input-background-light:focus {
+  color: #b0b5bd;
+}
+
+.focus\:text-search-input-background-dark:focus {
+  color: #383d45;
+}
+
+.focus\:text-list-item-background-dark:focus {
+  color: #323232;
+}
+
+.focus\:text-select-options-background-light:focus {
+  color: #5568ac;
 }
 
 .text-xs {
@@ -8346,6 +8698,63 @@ video {
   z-index: auto;
 }
 
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
 @media (min-width: 640px) {
   .sm\:sr-only {
     position: absolute;
@@ -8783,6 +9192,38 @@ video {
     background-color: #702459;
   }
 
+  .sm\:bg-sidebar-background-color-light {
+    background-color: #c5cad2;
+  }
+
+  .sm\:bg-list-view-background-color-light {
+    background-color: #6986c9;
+  }
+
+  .sm\:bg-sidebar-background-color-dark {
+    background-color: #282e36;
+  }
+
+  .sm\:bg-list-view-background-color-dark {
+    background-color: #1e1e1e;
+  }
+
+  .sm\:bg-search-input-background-light {
+    background-color: #b0b5bd;
+  }
+
+  .sm\:bg-search-input-background-dark {
+    background-color: #383d45;
+  }
+
+  .sm\:bg-list-item-background-dark {
+    background-color: #323232;
+  }
+
+  .sm\:bg-select-options-background-light {
+    background-color: #5568ac;
+  }
+
   .sm\:hover\:bg-transparent:hover {
     background-color: transparent;
   }
@@ -9155,6 +9596,38 @@ video {
     background-color: #702459;
   }
 
+  .sm\:hover\:bg-sidebar-background-color-light:hover {
+    background-color: #c5cad2;
+  }
+
+  .sm\:hover\:bg-list-view-background-color-light:hover {
+    background-color: #6986c9;
+  }
+
+  .sm\:hover\:bg-sidebar-background-color-dark:hover {
+    background-color: #282e36;
+  }
+
+  .sm\:hover\:bg-list-view-background-color-dark:hover {
+    background-color: #1e1e1e;
+  }
+
+  .sm\:hover\:bg-search-input-background-light:hover {
+    background-color: #b0b5bd;
+  }
+
+  .sm\:hover\:bg-search-input-background-dark:hover {
+    background-color: #383d45;
+  }
+
+  .sm\:hover\:bg-list-item-background-dark:hover {
+    background-color: #323232;
+  }
+
+  .sm\:hover\:bg-select-options-background-light:hover {
+    background-color: #5568ac;
+  }
+
   .sm\:focus\:bg-transparent:focus {
     background-color: transparent;
   }
@@ -9525,6 +9998,38 @@ video {
 
   .sm\:focus\:bg-pink-900:focus {
     background-color: #702459;
+  }
+
+  .sm\:focus\:bg-sidebar-background-color-light:focus {
+    background-color: #c5cad2;
+  }
+
+  .sm\:focus\:bg-list-view-background-color-light:focus {
+    background-color: #6986c9;
+  }
+
+  .sm\:focus\:bg-sidebar-background-color-dark:focus {
+    background-color: #282e36;
+  }
+
+  .sm\:focus\:bg-list-view-background-color-dark:focus {
+    background-color: #1e1e1e;
+  }
+
+  .sm\:focus\:bg-search-input-background-light:focus {
+    background-color: #b0b5bd;
+  }
+
+  .sm\:focus\:bg-search-input-background-dark:focus {
+    background-color: #383d45;
+  }
+
+  .sm\:focus\:bg-list-item-background-dark:focus {
+    background-color: #323232;
+  }
+
+  .sm\:focus\:bg-select-options-background-light:focus {
+    background-color: #5568ac;
   }
 
   .sm\:bg-bottom {
@@ -9979,6 +10484,38 @@ video {
     border-color: #702459;
   }
 
+  .sm\:border-sidebar-background-color-light {
+    border-color: #c5cad2;
+  }
+
+  .sm\:border-list-view-background-color-light {
+    border-color: #6986c9;
+  }
+
+  .sm\:border-sidebar-background-color-dark {
+    border-color: #282e36;
+  }
+
+  .sm\:border-list-view-background-color-dark {
+    border-color: #1e1e1e;
+  }
+
+  .sm\:border-search-input-background-light {
+    border-color: #b0b5bd;
+  }
+
+  .sm\:border-search-input-background-dark {
+    border-color: #383d45;
+  }
+
+  .sm\:border-list-item-background-dark {
+    border-color: #323232;
+  }
+
+  .sm\:border-select-options-background-light {
+    border-color: #5568ac;
+  }
+
   .sm\:hover\:border-transparent:hover {
     border-color: transparent;
   }
@@ -10351,6 +10888,38 @@ video {
     border-color: #702459;
   }
 
+  .sm\:hover\:border-sidebar-background-color-light:hover {
+    border-color: #c5cad2;
+  }
+
+  .sm\:hover\:border-list-view-background-color-light:hover {
+    border-color: #6986c9;
+  }
+
+  .sm\:hover\:border-sidebar-background-color-dark:hover {
+    border-color: #282e36;
+  }
+
+  .sm\:hover\:border-list-view-background-color-dark:hover {
+    border-color: #1e1e1e;
+  }
+
+  .sm\:hover\:border-search-input-background-light:hover {
+    border-color: #b0b5bd;
+  }
+
+  .sm\:hover\:border-search-input-background-dark:hover {
+    border-color: #383d45;
+  }
+
+  .sm\:hover\:border-list-item-background-dark:hover {
+    border-color: #323232;
+  }
+
+  .sm\:hover\:border-select-options-background-light:hover {
+    border-color: #5568ac;
+  }
+
   .sm\:focus\:border-transparent:focus {
     border-color: transparent;
   }
@@ -10721,6 +11290,38 @@ video {
 
   .sm\:focus\:border-pink-900:focus {
     border-color: #702459;
+  }
+
+  .sm\:focus\:border-sidebar-background-color-light:focus {
+    border-color: #c5cad2;
+  }
+
+  .sm\:focus\:border-list-view-background-color-light:focus {
+    border-color: #6986c9;
+  }
+
+  .sm\:focus\:border-sidebar-background-color-dark:focus {
+    border-color: #282e36;
+  }
+
+  .sm\:focus\:border-list-view-background-color-dark:focus {
+    border-color: #1e1e1e;
+  }
+
+  .sm\:focus\:border-search-input-background-light:focus {
+    border-color: #b0b5bd;
+  }
+
+  .sm\:focus\:border-search-input-background-dark:focus {
+    border-color: #383d45;
+  }
+
+  .sm\:focus\:border-list-item-background-dark:focus {
+    border-color: #323232;
+  }
+
+  .sm\:focus\:border-select-options-background-light:focus {
+    border-color: #5568ac;
   }
 
   .sm\:rounded-none {
@@ -13911,6 +14512,38 @@ video {
     color: #702459;
   }
 
+  .sm\:placeholder-sidebar-background-color-light::placeholder {
+    color: #c5cad2;
+  }
+
+  .sm\:placeholder-list-view-background-color-light::placeholder {
+    color: #6986c9;
+  }
+
+  .sm\:placeholder-sidebar-background-color-dark::placeholder {
+    color: #282e36;
+  }
+
+  .sm\:placeholder-list-view-background-color-dark::placeholder {
+    color: #1e1e1e;
+  }
+
+  .sm\:placeholder-search-input-background-light::placeholder {
+    color: #b0b5bd;
+  }
+
+  .sm\:placeholder-search-input-background-dark::placeholder {
+    color: #383d45;
+  }
+
+  .sm\:placeholder-list-item-background-dark::placeholder {
+    color: #323232;
+  }
+
+  .sm\:placeholder-select-options-background-light::placeholder {
+    color: #5568ac;
+  }
+
   .sm\:focus\:placeholder-transparent:focus::placeholder {
     color: transparent;
   }
@@ -14281,6 +14914,38 @@ video {
 
   .sm\:focus\:placeholder-pink-900:focus::placeholder {
     color: #702459;
+  }
+
+  .sm\:focus\:placeholder-sidebar-background-color-light:focus::placeholder {
+    color: #c5cad2;
+  }
+
+  .sm\:focus\:placeholder-list-view-background-color-light:focus::placeholder {
+    color: #6986c9;
+  }
+
+  .sm\:focus\:placeholder-sidebar-background-color-dark:focus::placeholder {
+    color: #282e36;
+  }
+
+  .sm\:focus\:placeholder-list-view-background-color-dark:focus::placeholder {
+    color: #1e1e1e;
+  }
+
+  .sm\:focus\:placeholder-search-input-background-light:focus::placeholder {
+    color: #b0b5bd;
+  }
+
+  .sm\:focus\:placeholder-search-input-background-dark:focus::placeholder {
+    color: #383d45;
+  }
+
+  .sm\:focus\:placeholder-list-item-background-dark:focus::placeholder {
+    color: #323232;
+  }
+
+  .sm\:focus\:placeholder-select-options-background-light:focus::placeholder {
+    color: #5568ac;
   }
 
   .sm\:pointer-events-none {
@@ -14894,6 +15559,38 @@ video {
     color: #702459;
   }
 
+  .sm\:text-sidebar-background-color-light {
+    color: #c5cad2;
+  }
+
+  .sm\:text-list-view-background-color-light {
+    color: #6986c9;
+  }
+
+  .sm\:text-sidebar-background-color-dark {
+    color: #282e36;
+  }
+
+  .sm\:text-list-view-background-color-dark {
+    color: #1e1e1e;
+  }
+
+  .sm\:text-search-input-background-light {
+    color: #b0b5bd;
+  }
+
+  .sm\:text-search-input-background-dark {
+    color: #383d45;
+  }
+
+  .sm\:text-list-item-background-dark {
+    color: #323232;
+  }
+
+  .sm\:text-select-options-background-light {
+    color: #5568ac;
+  }
+
   .sm\:hover\:text-transparent:hover {
     color: transparent;
   }
@@ -15266,6 +15963,38 @@ video {
     color: #702459;
   }
 
+  .sm\:hover\:text-sidebar-background-color-light:hover {
+    color: #c5cad2;
+  }
+
+  .sm\:hover\:text-list-view-background-color-light:hover {
+    color: #6986c9;
+  }
+
+  .sm\:hover\:text-sidebar-background-color-dark:hover {
+    color: #282e36;
+  }
+
+  .sm\:hover\:text-list-view-background-color-dark:hover {
+    color: #1e1e1e;
+  }
+
+  .sm\:hover\:text-search-input-background-light:hover {
+    color: #b0b5bd;
+  }
+
+  .sm\:hover\:text-search-input-background-dark:hover {
+    color: #383d45;
+  }
+
+  .sm\:hover\:text-list-item-background-dark:hover {
+    color: #323232;
+  }
+
+  .sm\:hover\:text-select-options-background-light:hover {
+    color: #5568ac;
+  }
+
   .sm\:focus\:text-transparent:focus {
     color: transparent;
   }
@@ -15636,6 +16365,38 @@ video {
 
   .sm\:focus\:text-pink-900:focus {
     color: #702459;
+  }
+
+  .sm\:focus\:text-sidebar-background-color-light:focus {
+    color: #c5cad2;
+  }
+
+  .sm\:focus\:text-list-view-background-color-light:focus {
+    color: #6986c9;
+  }
+
+  .sm\:focus\:text-sidebar-background-color-dark:focus {
+    color: #282e36;
+  }
+
+  .sm\:focus\:text-list-view-background-color-dark:focus {
+    color: #1e1e1e;
+  }
+
+  .sm\:focus\:text-search-input-background-light:focus {
+    color: #b0b5bd;
+  }
+
+  .sm\:focus\:text-search-input-background-dark:focus {
+    color: #383d45;
+  }
+
+  .sm\:focus\:text-list-item-background-dark:focus {
+    color: #323232;
+  }
+
+  .sm\:focus\:text-select-options-background-light:focus {
+    color: #5568ac;
   }
 
   .sm\:text-xs {
@@ -16521,6 +17282,38 @@ video {
     background-color: #702459;
   }
 
+  .md\:bg-sidebar-background-color-light {
+    background-color: #c5cad2;
+  }
+
+  .md\:bg-list-view-background-color-light {
+    background-color: #6986c9;
+  }
+
+  .md\:bg-sidebar-background-color-dark {
+    background-color: #282e36;
+  }
+
+  .md\:bg-list-view-background-color-dark {
+    background-color: #1e1e1e;
+  }
+
+  .md\:bg-search-input-background-light {
+    background-color: #b0b5bd;
+  }
+
+  .md\:bg-search-input-background-dark {
+    background-color: #383d45;
+  }
+
+  .md\:bg-list-item-background-dark {
+    background-color: #323232;
+  }
+
+  .md\:bg-select-options-background-light {
+    background-color: #5568ac;
+  }
+
   .md\:hover\:bg-transparent:hover {
     background-color: transparent;
   }
@@ -16893,6 +17686,38 @@ video {
     background-color: #702459;
   }
 
+  .md\:hover\:bg-sidebar-background-color-light:hover {
+    background-color: #c5cad2;
+  }
+
+  .md\:hover\:bg-list-view-background-color-light:hover {
+    background-color: #6986c9;
+  }
+
+  .md\:hover\:bg-sidebar-background-color-dark:hover {
+    background-color: #282e36;
+  }
+
+  .md\:hover\:bg-list-view-background-color-dark:hover {
+    background-color: #1e1e1e;
+  }
+
+  .md\:hover\:bg-search-input-background-light:hover {
+    background-color: #b0b5bd;
+  }
+
+  .md\:hover\:bg-search-input-background-dark:hover {
+    background-color: #383d45;
+  }
+
+  .md\:hover\:bg-list-item-background-dark:hover {
+    background-color: #323232;
+  }
+
+  .md\:hover\:bg-select-options-background-light:hover {
+    background-color: #5568ac;
+  }
+
   .md\:focus\:bg-transparent:focus {
     background-color: transparent;
   }
@@ -17263,6 +18088,38 @@ video {
 
   .md\:focus\:bg-pink-900:focus {
     background-color: #702459;
+  }
+
+  .md\:focus\:bg-sidebar-background-color-light:focus {
+    background-color: #c5cad2;
+  }
+
+  .md\:focus\:bg-list-view-background-color-light:focus {
+    background-color: #6986c9;
+  }
+
+  .md\:focus\:bg-sidebar-background-color-dark:focus {
+    background-color: #282e36;
+  }
+
+  .md\:focus\:bg-list-view-background-color-dark:focus {
+    background-color: #1e1e1e;
+  }
+
+  .md\:focus\:bg-search-input-background-light:focus {
+    background-color: #b0b5bd;
+  }
+
+  .md\:focus\:bg-search-input-background-dark:focus {
+    background-color: #383d45;
+  }
+
+  .md\:focus\:bg-list-item-background-dark:focus {
+    background-color: #323232;
+  }
+
+  .md\:focus\:bg-select-options-background-light:focus {
+    background-color: #5568ac;
   }
 
   .md\:bg-bottom {
@@ -17717,6 +18574,38 @@ video {
     border-color: #702459;
   }
 
+  .md\:border-sidebar-background-color-light {
+    border-color: #c5cad2;
+  }
+
+  .md\:border-list-view-background-color-light {
+    border-color: #6986c9;
+  }
+
+  .md\:border-sidebar-background-color-dark {
+    border-color: #282e36;
+  }
+
+  .md\:border-list-view-background-color-dark {
+    border-color: #1e1e1e;
+  }
+
+  .md\:border-search-input-background-light {
+    border-color: #b0b5bd;
+  }
+
+  .md\:border-search-input-background-dark {
+    border-color: #383d45;
+  }
+
+  .md\:border-list-item-background-dark {
+    border-color: #323232;
+  }
+
+  .md\:border-select-options-background-light {
+    border-color: #5568ac;
+  }
+
   .md\:hover\:border-transparent:hover {
     border-color: transparent;
   }
@@ -18089,6 +18978,38 @@ video {
     border-color: #702459;
   }
 
+  .md\:hover\:border-sidebar-background-color-light:hover {
+    border-color: #c5cad2;
+  }
+
+  .md\:hover\:border-list-view-background-color-light:hover {
+    border-color: #6986c9;
+  }
+
+  .md\:hover\:border-sidebar-background-color-dark:hover {
+    border-color: #282e36;
+  }
+
+  .md\:hover\:border-list-view-background-color-dark:hover {
+    border-color: #1e1e1e;
+  }
+
+  .md\:hover\:border-search-input-background-light:hover {
+    border-color: #b0b5bd;
+  }
+
+  .md\:hover\:border-search-input-background-dark:hover {
+    border-color: #383d45;
+  }
+
+  .md\:hover\:border-list-item-background-dark:hover {
+    border-color: #323232;
+  }
+
+  .md\:hover\:border-select-options-background-light:hover {
+    border-color: #5568ac;
+  }
+
   .md\:focus\:border-transparent:focus {
     border-color: transparent;
   }
@@ -18459,6 +19380,38 @@ video {
 
   .md\:focus\:border-pink-900:focus {
     border-color: #702459;
+  }
+
+  .md\:focus\:border-sidebar-background-color-light:focus {
+    border-color: #c5cad2;
+  }
+
+  .md\:focus\:border-list-view-background-color-light:focus {
+    border-color: #6986c9;
+  }
+
+  .md\:focus\:border-sidebar-background-color-dark:focus {
+    border-color: #282e36;
+  }
+
+  .md\:focus\:border-list-view-background-color-dark:focus {
+    border-color: #1e1e1e;
+  }
+
+  .md\:focus\:border-search-input-background-light:focus {
+    border-color: #b0b5bd;
+  }
+
+  .md\:focus\:border-search-input-background-dark:focus {
+    border-color: #383d45;
+  }
+
+  .md\:focus\:border-list-item-background-dark:focus {
+    border-color: #323232;
+  }
+
+  .md\:focus\:border-select-options-background-light:focus {
+    border-color: #5568ac;
   }
 
   .md\:rounded-none {
@@ -21649,6 +22602,38 @@ video {
     color: #702459;
   }
 
+  .md\:placeholder-sidebar-background-color-light::placeholder {
+    color: #c5cad2;
+  }
+
+  .md\:placeholder-list-view-background-color-light::placeholder {
+    color: #6986c9;
+  }
+
+  .md\:placeholder-sidebar-background-color-dark::placeholder {
+    color: #282e36;
+  }
+
+  .md\:placeholder-list-view-background-color-dark::placeholder {
+    color: #1e1e1e;
+  }
+
+  .md\:placeholder-search-input-background-light::placeholder {
+    color: #b0b5bd;
+  }
+
+  .md\:placeholder-search-input-background-dark::placeholder {
+    color: #383d45;
+  }
+
+  .md\:placeholder-list-item-background-dark::placeholder {
+    color: #323232;
+  }
+
+  .md\:placeholder-select-options-background-light::placeholder {
+    color: #5568ac;
+  }
+
   .md\:focus\:placeholder-transparent:focus::placeholder {
     color: transparent;
   }
@@ -22019,6 +23004,38 @@ video {
 
   .md\:focus\:placeholder-pink-900:focus::placeholder {
     color: #702459;
+  }
+
+  .md\:focus\:placeholder-sidebar-background-color-light:focus::placeholder {
+    color: #c5cad2;
+  }
+
+  .md\:focus\:placeholder-list-view-background-color-light:focus::placeholder {
+    color: #6986c9;
+  }
+
+  .md\:focus\:placeholder-sidebar-background-color-dark:focus::placeholder {
+    color: #282e36;
+  }
+
+  .md\:focus\:placeholder-list-view-background-color-dark:focus::placeholder {
+    color: #1e1e1e;
+  }
+
+  .md\:focus\:placeholder-search-input-background-light:focus::placeholder {
+    color: #b0b5bd;
+  }
+
+  .md\:focus\:placeholder-search-input-background-dark:focus::placeholder {
+    color: #383d45;
+  }
+
+  .md\:focus\:placeholder-list-item-background-dark:focus::placeholder {
+    color: #323232;
+  }
+
+  .md\:focus\:placeholder-select-options-background-light:focus::placeholder {
+    color: #5568ac;
   }
 
   .md\:pointer-events-none {
@@ -22632,6 +23649,38 @@ video {
     color: #702459;
   }
 
+  .md\:text-sidebar-background-color-light {
+    color: #c5cad2;
+  }
+
+  .md\:text-list-view-background-color-light {
+    color: #6986c9;
+  }
+
+  .md\:text-sidebar-background-color-dark {
+    color: #282e36;
+  }
+
+  .md\:text-list-view-background-color-dark {
+    color: #1e1e1e;
+  }
+
+  .md\:text-search-input-background-light {
+    color: #b0b5bd;
+  }
+
+  .md\:text-search-input-background-dark {
+    color: #383d45;
+  }
+
+  .md\:text-list-item-background-dark {
+    color: #323232;
+  }
+
+  .md\:text-select-options-background-light {
+    color: #5568ac;
+  }
+
   .md\:hover\:text-transparent:hover {
     color: transparent;
   }
@@ -23004,6 +24053,38 @@ video {
     color: #702459;
   }
 
+  .md\:hover\:text-sidebar-background-color-light:hover {
+    color: #c5cad2;
+  }
+
+  .md\:hover\:text-list-view-background-color-light:hover {
+    color: #6986c9;
+  }
+
+  .md\:hover\:text-sidebar-background-color-dark:hover {
+    color: #282e36;
+  }
+
+  .md\:hover\:text-list-view-background-color-dark:hover {
+    color: #1e1e1e;
+  }
+
+  .md\:hover\:text-search-input-background-light:hover {
+    color: #b0b5bd;
+  }
+
+  .md\:hover\:text-search-input-background-dark:hover {
+    color: #383d45;
+  }
+
+  .md\:hover\:text-list-item-background-dark:hover {
+    color: #323232;
+  }
+
+  .md\:hover\:text-select-options-background-light:hover {
+    color: #5568ac;
+  }
+
   .md\:focus\:text-transparent:focus {
     color: transparent;
   }
@@ -23374,6 +24455,38 @@ video {
 
   .md\:focus\:text-pink-900:focus {
     color: #702459;
+  }
+
+  .md\:focus\:text-sidebar-background-color-light:focus {
+    color: #c5cad2;
+  }
+
+  .md\:focus\:text-list-view-background-color-light:focus {
+    color: #6986c9;
+  }
+
+  .md\:focus\:text-sidebar-background-color-dark:focus {
+    color: #282e36;
+  }
+
+  .md\:focus\:text-list-view-background-color-dark:focus {
+    color: #1e1e1e;
+  }
+
+  .md\:focus\:text-search-input-background-light:focus {
+    color: #b0b5bd;
+  }
+
+  .md\:focus\:text-search-input-background-dark:focus {
+    color: #383d45;
+  }
+
+  .md\:focus\:text-list-item-background-dark:focus {
+    color: #323232;
+  }
+
+  .md\:focus\:text-select-options-background-light:focus {
+    color: #5568ac;
   }
 
   .md\:text-xs {
@@ -24259,6 +25372,38 @@ video {
     background-color: #702459;
   }
 
+  .lg\:bg-sidebar-background-color-light {
+    background-color: #c5cad2;
+  }
+
+  .lg\:bg-list-view-background-color-light {
+    background-color: #6986c9;
+  }
+
+  .lg\:bg-sidebar-background-color-dark {
+    background-color: #282e36;
+  }
+
+  .lg\:bg-list-view-background-color-dark {
+    background-color: #1e1e1e;
+  }
+
+  .lg\:bg-search-input-background-light {
+    background-color: #b0b5bd;
+  }
+
+  .lg\:bg-search-input-background-dark {
+    background-color: #383d45;
+  }
+
+  .lg\:bg-list-item-background-dark {
+    background-color: #323232;
+  }
+
+  .lg\:bg-select-options-background-light {
+    background-color: #5568ac;
+  }
+
   .lg\:hover\:bg-transparent:hover {
     background-color: transparent;
   }
@@ -24631,6 +25776,38 @@ video {
     background-color: #702459;
   }
 
+  .lg\:hover\:bg-sidebar-background-color-light:hover {
+    background-color: #c5cad2;
+  }
+
+  .lg\:hover\:bg-list-view-background-color-light:hover {
+    background-color: #6986c9;
+  }
+
+  .lg\:hover\:bg-sidebar-background-color-dark:hover {
+    background-color: #282e36;
+  }
+
+  .lg\:hover\:bg-list-view-background-color-dark:hover {
+    background-color: #1e1e1e;
+  }
+
+  .lg\:hover\:bg-search-input-background-light:hover {
+    background-color: #b0b5bd;
+  }
+
+  .lg\:hover\:bg-search-input-background-dark:hover {
+    background-color: #383d45;
+  }
+
+  .lg\:hover\:bg-list-item-background-dark:hover {
+    background-color: #323232;
+  }
+
+  .lg\:hover\:bg-select-options-background-light:hover {
+    background-color: #5568ac;
+  }
+
   .lg\:focus\:bg-transparent:focus {
     background-color: transparent;
   }
@@ -25001,6 +26178,38 @@ video {
 
   .lg\:focus\:bg-pink-900:focus {
     background-color: #702459;
+  }
+
+  .lg\:focus\:bg-sidebar-background-color-light:focus {
+    background-color: #c5cad2;
+  }
+
+  .lg\:focus\:bg-list-view-background-color-light:focus {
+    background-color: #6986c9;
+  }
+
+  .lg\:focus\:bg-sidebar-background-color-dark:focus {
+    background-color: #282e36;
+  }
+
+  .lg\:focus\:bg-list-view-background-color-dark:focus {
+    background-color: #1e1e1e;
+  }
+
+  .lg\:focus\:bg-search-input-background-light:focus {
+    background-color: #b0b5bd;
+  }
+
+  .lg\:focus\:bg-search-input-background-dark:focus {
+    background-color: #383d45;
+  }
+
+  .lg\:focus\:bg-list-item-background-dark:focus {
+    background-color: #323232;
+  }
+
+  .lg\:focus\:bg-select-options-background-light:focus {
+    background-color: #5568ac;
   }
 
   .lg\:bg-bottom {
@@ -25455,6 +26664,38 @@ video {
     border-color: #702459;
   }
 
+  .lg\:border-sidebar-background-color-light {
+    border-color: #c5cad2;
+  }
+
+  .lg\:border-list-view-background-color-light {
+    border-color: #6986c9;
+  }
+
+  .lg\:border-sidebar-background-color-dark {
+    border-color: #282e36;
+  }
+
+  .lg\:border-list-view-background-color-dark {
+    border-color: #1e1e1e;
+  }
+
+  .lg\:border-search-input-background-light {
+    border-color: #b0b5bd;
+  }
+
+  .lg\:border-search-input-background-dark {
+    border-color: #383d45;
+  }
+
+  .lg\:border-list-item-background-dark {
+    border-color: #323232;
+  }
+
+  .lg\:border-select-options-background-light {
+    border-color: #5568ac;
+  }
+
   .lg\:hover\:border-transparent:hover {
     border-color: transparent;
   }
@@ -25827,6 +27068,38 @@ video {
     border-color: #702459;
   }
 
+  .lg\:hover\:border-sidebar-background-color-light:hover {
+    border-color: #c5cad2;
+  }
+
+  .lg\:hover\:border-list-view-background-color-light:hover {
+    border-color: #6986c9;
+  }
+
+  .lg\:hover\:border-sidebar-background-color-dark:hover {
+    border-color: #282e36;
+  }
+
+  .lg\:hover\:border-list-view-background-color-dark:hover {
+    border-color: #1e1e1e;
+  }
+
+  .lg\:hover\:border-search-input-background-light:hover {
+    border-color: #b0b5bd;
+  }
+
+  .lg\:hover\:border-search-input-background-dark:hover {
+    border-color: #383d45;
+  }
+
+  .lg\:hover\:border-list-item-background-dark:hover {
+    border-color: #323232;
+  }
+
+  .lg\:hover\:border-select-options-background-light:hover {
+    border-color: #5568ac;
+  }
+
   .lg\:focus\:border-transparent:focus {
     border-color: transparent;
   }
@@ -26197,6 +27470,38 @@ video {
 
   .lg\:focus\:border-pink-900:focus {
     border-color: #702459;
+  }
+
+  .lg\:focus\:border-sidebar-background-color-light:focus {
+    border-color: #c5cad2;
+  }
+
+  .lg\:focus\:border-list-view-background-color-light:focus {
+    border-color: #6986c9;
+  }
+
+  .lg\:focus\:border-sidebar-background-color-dark:focus {
+    border-color: #282e36;
+  }
+
+  .lg\:focus\:border-list-view-background-color-dark:focus {
+    border-color: #1e1e1e;
+  }
+
+  .lg\:focus\:border-search-input-background-light:focus {
+    border-color: #b0b5bd;
+  }
+
+  .lg\:focus\:border-search-input-background-dark:focus {
+    border-color: #383d45;
+  }
+
+  .lg\:focus\:border-list-item-background-dark:focus {
+    border-color: #323232;
+  }
+
+  .lg\:focus\:border-select-options-background-light:focus {
+    border-color: #5568ac;
   }
 
   .lg\:rounded-none {
@@ -29387,6 +30692,38 @@ video {
     color: #702459;
   }
 
+  .lg\:placeholder-sidebar-background-color-light::placeholder {
+    color: #c5cad2;
+  }
+
+  .lg\:placeholder-list-view-background-color-light::placeholder {
+    color: #6986c9;
+  }
+
+  .lg\:placeholder-sidebar-background-color-dark::placeholder {
+    color: #282e36;
+  }
+
+  .lg\:placeholder-list-view-background-color-dark::placeholder {
+    color: #1e1e1e;
+  }
+
+  .lg\:placeholder-search-input-background-light::placeholder {
+    color: #b0b5bd;
+  }
+
+  .lg\:placeholder-search-input-background-dark::placeholder {
+    color: #383d45;
+  }
+
+  .lg\:placeholder-list-item-background-dark::placeholder {
+    color: #323232;
+  }
+
+  .lg\:placeholder-select-options-background-light::placeholder {
+    color: #5568ac;
+  }
+
   .lg\:focus\:placeholder-transparent:focus::placeholder {
     color: transparent;
   }
@@ -29757,6 +31094,38 @@ video {
 
   .lg\:focus\:placeholder-pink-900:focus::placeholder {
     color: #702459;
+  }
+
+  .lg\:focus\:placeholder-sidebar-background-color-light:focus::placeholder {
+    color: #c5cad2;
+  }
+
+  .lg\:focus\:placeholder-list-view-background-color-light:focus::placeholder {
+    color: #6986c9;
+  }
+
+  .lg\:focus\:placeholder-sidebar-background-color-dark:focus::placeholder {
+    color: #282e36;
+  }
+
+  .lg\:focus\:placeholder-list-view-background-color-dark:focus::placeholder {
+    color: #1e1e1e;
+  }
+
+  .lg\:focus\:placeholder-search-input-background-light:focus::placeholder {
+    color: #b0b5bd;
+  }
+
+  .lg\:focus\:placeholder-search-input-background-dark:focus::placeholder {
+    color: #383d45;
+  }
+
+  .lg\:focus\:placeholder-list-item-background-dark:focus::placeholder {
+    color: #323232;
+  }
+
+  .lg\:focus\:placeholder-select-options-background-light:focus::placeholder {
+    color: #5568ac;
   }
 
   .lg\:pointer-events-none {
@@ -30370,6 +31739,38 @@ video {
     color: #702459;
   }
 
+  .lg\:text-sidebar-background-color-light {
+    color: #c5cad2;
+  }
+
+  .lg\:text-list-view-background-color-light {
+    color: #6986c9;
+  }
+
+  .lg\:text-sidebar-background-color-dark {
+    color: #282e36;
+  }
+
+  .lg\:text-list-view-background-color-dark {
+    color: #1e1e1e;
+  }
+
+  .lg\:text-search-input-background-light {
+    color: #b0b5bd;
+  }
+
+  .lg\:text-search-input-background-dark {
+    color: #383d45;
+  }
+
+  .lg\:text-list-item-background-dark {
+    color: #323232;
+  }
+
+  .lg\:text-select-options-background-light {
+    color: #5568ac;
+  }
+
   .lg\:hover\:text-transparent:hover {
     color: transparent;
   }
@@ -30742,6 +32143,38 @@ video {
     color: #702459;
   }
 
+  .lg\:hover\:text-sidebar-background-color-light:hover {
+    color: #c5cad2;
+  }
+
+  .lg\:hover\:text-list-view-background-color-light:hover {
+    color: #6986c9;
+  }
+
+  .lg\:hover\:text-sidebar-background-color-dark:hover {
+    color: #282e36;
+  }
+
+  .lg\:hover\:text-list-view-background-color-dark:hover {
+    color: #1e1e1e;
+  }
+
+  .lg\:hover\:text-search-input-background-light:hover {
+    color: #b0b5bd;
+  }
+
+  .lg\:hover\:text-search-input-background-dark:hover {
+    color: #383d45;
+  }
+
+  .lg\:hover\:text-list-item-background-dark:hover {
+    color: #323232;
+  }
+
+  .lg\:hover\:text-select-options-background-light:hover {
+    color: #5568ac;
+  }
+
   .lg\:focus\:text-transparent:focus {
     color: transparent;
   }
@@ -31112,6 +32545,38 @@ video {
 
   .lg\:focus\:text-pink-900:focus {
     color: #702459;
+  }
+
+  .lg\:focus\:text-sidebar-background-color-light:focus {
+    color: #c5cad2;
+  }
+
+  .lg\:focus\:text-list-view-background-color-light:focus {
+    color: #6986c9;
+  }
+
+  .lg\:focus\:text-sidebar-background-color-dark:focus {
+    color: #282e36;
+  }
+
+  .lg\:focus\:text-list-view-background-color-dark:focus {
+    color: #1e1e1e;
+  }
+
+  .lg\:focus\:text-search-input-background-light:focus {
+    color: #b0b5bd;
+  }
+
+  .lg\:focus\:text-search-input-background-dark:focus {
+    color: #383d45;
+  }
+
+  .lg\:focus\:text-list-item-background-dark:focus {
+    color: #323232;
+  }
+
+  .lg\:focus\:text-select-options-background-light:focus {
+    color: #5568ac;
   }
 
   .lg\:text-xs {
@@ -31997,6 +33462,38 @@ video {
     background-color: #702459;
   }
 
+  .xl\:bg-sidebar-background-color-light {
+    background-color: #c5cad2;
+  }
+
+  .xl\:bg-list-view-background-color-light {
+    background-color: #6986c9;
+  }
+
+  .xl\:bg-sidebar-background-color-dark {
+    background-color: #282e36;
+  }
+
+  .xl\:bg-list-view-background-color-dark {
+    background-color: #1e1e1e;
+  }
+
+  .xl\:bg-search-input-background-light {
+    background-color: #b0b5bd;
+  }
+
+  .xl\:bg-search-input-background-dark {
+    background-color: #383d45;
+  }
+
+  .xl\:bg-list-item-background-dark {
+    background-color: #323232;
+  }
+
+  .xl\:bg-select-options-background-light {
+    background-color: #5568ac;
+  }
+
   .xl\:hover\:bg-transparent:hover {
     background-color: transparent;
   }
@@ -32369,6 +33866,38 @@ video {
     background-color: #702459;
   }
 
+  .xl\:hover\:bg-sidebar-background-color-light:hover {
+    background-color: #c5cad2;
+  }
+
+  .xl\:hover\:bg-list-view-background-color-light:hover {
+    background-color: #6986c9;
+  }
+
+  .xl\:hover\:bg-sidebar-background-color-dark:hover {
+    background-color: #282e36;
+  }
+
+  .xl\:hover\:bg-list-view-background-color-dark:hover {
+    background-color: #1e1e1e;
+  }
+
+  .xl\:hover\:bg-search-input-background-light:hover {
+    background-color: #b0b5bd;
+  }
+
+  .xl\:hover\:bg-search-input-background-dark:hover {
+    background-color: #383d45;
+  }
+
+  .xl\:hover\:bg-list-item-background-dark:hover {
+    background-color: #323232;
+  }
+
+  .xl\:hover\:bg-select-options-background-light:hover {
+    background-color: #5568ac;
+  }
+
   .xl\:focus\:bg-transparent:focus {
     background-color: transparent;
   }
@@ -32739,6 +34268,38 @@ video {
 
   .xl\:focus\:bg-pink-900:focus {
     background-color: #702459;
+  }
+
+  .xl\:focus\:bg-sidebar-background-color-light:focus {
+    background-color: #c5cad2;
+  }
+
+  .xl\:focus\:bg-list-view-background-color-light:focus {
+    background-color: #6986c9;
+  }
+
+  .xl\:focus\:bg-sidebar-background-color-dark:focus {
+    background-color: #282e36;
+  }
+
+  .xl\:focus\:bg-list-view-background-color-dark:focus {
+    background-color: #1e1e1e;
+  }
+
+  .xl\:focus\:bg-search-input-background-light:focus {
+    background-color: #b0b5bd;
+  }
+
+  .xl\:focus\:bg-search-input-background-dark:focus {
+    background-color: #383d45;
+  }
+
+  .xl\:focus\:bg-list-item-background-dark:focus {
+    background-color: #323232;
+  }
+
+  .xl\:focus\:bg-select-options-background-light:focus {
+    background-color: #5568ac;
   }
 
   .xl\:bg-bottom {
@@ -33193,6 +34754,38 @@ video {
     border-color: #702459;
   }
 
+  .xl\:border-sidebar-background-color-light {
+    border-color: #c5cad2;
+  }
+
+  .xl\:border-list-view-background-color-light {
+    border-color: #6986c9;
+  }
+
+  .xl\:border-sidebar-background-color-dark {
+    border-color: #282e36;
+  }
+
+  .xl\:border-list-view-background-color-dark {
+    border-color: #1e1e1e;
+  }
+
+  .xl\:border-search-input-background-light {
+    border-color: #b0b5bd;
+  }
+
+  .xl\:border-search-input-background-dark {
+    border-color: #383d45;
+  }
+
+  .xl\:border-list-item-background-dark {
+    border-color: #323232;
+  }
+
+  .xl\:border-select-options-background-light {
+    border-color: #5568ac;
+  }
+
   .xl\:hover\:border-transparent:hover {
     border-color: transparent;
   }
@@ -33565,6 +35158,38 @@ video {
     border-color: #702459;
   }
 
+  .xl\:hover\:border-sidebar-background-color-light:hover {
+    border-color: #c5cad2;
+  }
+
+  .xl\:hover\:border-list-view-background-color-light:hover {
+    border-color: #6986c9;
+  }
+
+  .xl\:hover\:border-sidebar-background-color-dark:hover {
+    border-color: #282e36;
+  }
+
+  .xl\:hover\:border-list-view-background-color-dark:hover {
+    border-color: #1e1e1e;
+  }
+
+  .xl\:hover\:border-search-input-background-light:hover {
+    border-color: #b0b5bd;
+  }
+
+  .xl\:hover\:border-search-input-background-dark:hover {
+    border-color: #383d45;
+  }
+
+  .xl\:hover\:border-list-item-background-dark:hover {
+    border-color: #323232;
+  }
+
+  .xl\:hover\:border-select-options-background-light:hover {
+    border-color: #5568ac;
+  }
+
   .xl\:focus\:border-transparent:focus {
     border-color: transparent;
   }
@@ -33935,6 +35560,38 @@ video {
 
   .xl\:focus\:border-pink-900:focus {
     border-color: #702459;
+  }
+
+  .xl\:focus\:border-sidebar-background-color-light:focus {
+    border-color: #c5cad2;
+  }
+
+  .xl\:focus\:border-list-view-background-color-light:focus {
+    border-color: #6986c9;
+  }
+
+  .xl\:focus\:border-sidebar-background-color-dark:focus {
+    border-color: #282e36;
+  }
+
+  .xl\:focus\:border-list-view-background-color-dark:focus {
+    border-color: #1e1e1e;
+  }
+
+  .xl\:focus\:border-search-input-background-light:focus {
+    border-color: #b0b5bd;
+  }
+
+  .xl\:focus\:border-search-input-background-dark:focus {
+    border-color: #383d45;
+  }
+
+  .xl\:focus\:border-list-item-background-dark:focus {
+    border-color: #323232;
+  }
+
+  .xl\:focus\:border-select-options-background-light:focus {
+    border-color: #5568ac;
   }
 
   .xl\:rounded-none {
@@ -37125,6 +38782,38 @@ video {
     color: #702459;
   }
 
+  .xl\:placeholder-sidebar-background-color-light::placeholder {
+    color: #c5cad2;
+  }
+
+  .xl\:placeholder-list-view-background-color-light::placeholder {
+    color: #6986c9;
+  }
+
+  .xl\:placeholder-sidebar-background-color-dark::placeholder {
+    color: #282e36;
+  }
+
+  .xl\:placeholder-list-view-background-color-dark::placeholder {
+    color: #1e1e1e;
+  }
+
+  .xl\:placeholder-search-input-background-light::placeholder {
+    color: #b0b5bd;
+  }
+
+  .xl\:placeholder-search-input-background-dark::placeholder {
+    color: #383d45;
+  }
+
+  .xl\:placeholder-list-item-background-dark::placeholder {
+    color: #323232;
+  }
+
+  .xl\:placeholder-select-options-background-light::placeholder {
+    color: #5568ac;
+  }
+
   .xl\:focus\:placeholder-transparent:focus::placeholder {
     color: transparent;
   }
@@ -37495,6 +39184,38 @@ video {
 
   .xl\:focus\:placeholder-pink-900:focus::placeholder {
     color: #702459;
+  }
+
+  .xl\:focus\:placeholder-sidebar-background-color-light:focus::placeholder {
+    color: #c5cad2;
+  }
+
+  .xl\:focus\:placeholder-list-view-background-color-light:focus::placeholder {
+    color: #6986c9;
+  }
+
+  .xl\:focus\:placeholder-sidebar-background-color-dark:focus::placeholder {
+    color: #282e36;
+  }
+
+  .xl\:focus\:placeholder-list-view-background-color-dark:focus::placeholder {
+    color: #1e1e1e;
+  }
+
+  .xl\:focus\:placeholder-search-input-background-light:focus::placeholder {
+    color: #b0b5bd;
+  }
+
+  .xl\:focus\:placeholder-search-input-background-dark:focus::placeholder {
+    color: #383d45;
+  }
+
+  .xl\:focus\:placeholder-list-item-background-dark:focus::placeholder {
+    color: #323232;
+  }
+
+  .xl\:focus\:placeholder-select-options-background-light:focus::placeholder {
+    color: #5568ac;
   }
 
   .xl\:pointer-events-none {
@@ -38108,6 +39829,38 @@ video {
     color: #702459;
   }
 
+  .xl\:text-sidebar-background-color-light {
+    color: #c5cad2;
+  }
+
+  .xl\:text-list-view-background-color-light {
+    color: #6986c9;
+  }
+
+  .xl\:text-sidebar-background-color-dark {
+    color: #282e36;
+  }
+
+  .xl\:text-list-view-background-color-dark {
+    color: #1e1e1e;
+  }
+
+  .xl\:text-search-input-background-light {
+    color: #b0b5bd;
+  }
+
+  .xl\:text-search-input-background-dark {
+    color: #383d45;
+  }
+
+  .xl\:text-list-item-background-dark {
+    color: #323232;
+  }
+
+  .xl\:text-select-options-background-light {
+    color: #5568ac;
+  }
+
   .xl\:hover\:text-transparent:hover {
     color: transparent;
   }
@@ -38480,6 +40233,38 @@ video {
     color: #702459;
   }
 
+  .xl\:hover\:text-sidebar-background-color-light:hover {
+    color: #c5cad2;
+  }
+
+  .xl\:hover\:text-list-view-background-color-light:hover {
+    color: #6986c9;
+  }
+
+  .xl\:hover\:text-sidebar-background-color-dark:hover {
+    color: #282e36;
+  }
+
+  .xl\:hover\:text-list-view-background-color-dark:hover {
+    color: #1e1e1e;
+  }
+
+  .xl\:hover\:text-search-input-background-light:hover {
+    color: #b0b5bd;
+  }
+
+  .xl\:hover\:text-search-input-background-dark:hover {
+    color: #383d45;
+  }
+
+  .xl\:hover\:text-list-item-background-dark:hover {
+    color: #323232;
+  }
+
+  .xl\:hover\:text-select-options-background-light:hover {
+    color: #5568ac;
+  }
+
   .xl\:focus\:text-transparent:focus {
     color: transparent;
   }
@@ -38850,6 +40635,38 @@ video {
 
   .xl\:focus\:text-pink-900:focus {
     color: #702459;
+  }
+
+  .xl\:focus\:text-sidebar-background-color-light:focus {
+    color: #c5cad2;
+  }
+
+  .xl\:focus\:text-list-view-background-color-light:focus {
+    color: #6986c9;
+  }
+
+  .xl\:focus\:text-sidebar-background-color-dark:focus {
+    color: #282e36;
+  }
+
+  .xl\:focus\:text-list-view-background-color-dark:focus {
+    color: #1e1e1e;
+  }
+
+  .xl\:focus\:text-search-input-background-light:focus {
+    color: #b0b5bd;
+  }
+
+  .xl\:focus\:text-search-input-background-dark:focus {
+    color: #383d45;
+  }
+
+  .xl\:focus\:text-list-item-background-dark:focus {
+    color: #323232;
+  }
+
+  .xl\:focus\:text-select-options-background-light:focus {
+    color: #5568ac;
   }
 
   .xl\:text-xs {

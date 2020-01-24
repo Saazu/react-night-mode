@@ -1,0 +1,26 @@
+[
+  { 
+    "icon": "",
+    "text": "My Day"
+  },
+  {
+    "icon": "",
+    "text": "Important",
+    "number": "25"
+  },
+  {
+    "icon": "",
+    "text": "Planned",
+    "number": "4"
+  },
+  {
+    "icon": "",
+    "text": "Flagged email",
+    "number": "3"
+  },
+  {
+    "icon": "",
+    "text": "Tasks",
+    "number": "458"
+  }
+]

@@ -1,13 +1,18 @@
-import React from 'react'
-import { useTheme } from '../providers/useTheme'
+import React from 'react';
+import MainListView from './MainListView/MainListView';
+import SideNavBar from './Sidebar/SideNavBar';
+import { useTheme } from '../providers/useTheme';
 
 const MainPage = () => {
-  const theme = useTheme()
+  const { mode } = useTheme()
   return (
-    <div>
-      <button onClick={() => theme.changeMode('light')}>Light mode</button>
-      <p className="text-red-500">Hi {theme.mode}</p>
-      <button onClick={() => theme.changeMode('dark')}>Dark mode</button>
+    <div className={"flex min-h-screen " + (mode === 'light' ? 'text-black' : 'text-white')}>
+      <div className={"w-1/6 overflow-auto max-h-screen " + (mode === 'light' ? 'bg-sidebar-background-color-light' : 'bg-sidebar-background-color-dark')}>
+        <SideNavBar />
+      </div>
+      <div className={"w-5/6 " + (mode === 'light' ? 'bg-list-view-background-color-light' : 'bg-list-view-background-color-dark')}>
+        <MainListView />
+      </div>
     </div>
   );
 }
