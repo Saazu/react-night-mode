@@ -23,7 +23,6 @@ const MainListView = () => {
   return (
     <div className="mx-2 my-4">
       <div className="flex justify-between">
-
         <div className="flex">
           <div className="h-8 w-8 mt-1">
             <img className="" src={spanner} alt="spanner"/>
@@ -34,18 +33,21 @@ const MainListView = () => {
             </h1>
           </div>
         </div>
-        <div className="text-right mt-4">
-          <button>{<img className="h-3 w-3" src={mode === 'light' ? addUserLight : addUserDark} alt="add user"/>}</button>
-        </div>
-        <div className="text-right mt-4">
-          <button>{<img className="h-3 w-3" src={mode === 'light' ? ellipsisLight : ellipsisDark} alt="more optionz"/>}</button>
-        </div>
-        <div className="text-right mt-4">
-          <ToggleButton />
+        
+        <div className="flex mt-4">
+          <div className={"mx-2 px-4 pt-1 rounded " + (mode === 'light' ? 'bg-select-options-background-light' : "bg-list-item-background-dark")}>
+            <button>{<img className="h-3 w-3" src={mode === 'light' ? addUserLight : addUserDark} alt="add user"/>}</button>
+          </div>
+          <div className={"mx-2 px-4 pt-1 rounded " + (mode === 'light' ? 'bg-select-options-background-light' : "bg-list-item-background-dark")}>
+            <button>{<img className="h-3 w-3" src={mode === 'light' ? ellipsisLight : ellipsisDark} alt="more optionz"/>}</button>
+          </div>
+          <div className="ml-1">
+            <ToggleButton />
+          </div>
         </div>
       </div>
-      <div className="flex">
 
+      <div className="flex">
         <div className="">
           <select className={"" + (mode === 'light' ? "text-black text-sm bg-select-options-background-light " : "text-list-view-background-color-light bg-list-item-background-dark")}>
             <option className="my-1 bg-select-options-background-light">Sorted by Importance</option>
@@ -60,6 +62,7 @@ const MainListView = () => {
       <div>
         {listRows()}
       </div>
+
     </div>
     
   );
