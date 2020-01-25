@@ -24,7 +24,7 @@ const ListItem = ({ content }) => {
             <img src={listCircle} alt="list circle"></img>
           </div>
           <div className="text-sm font-thin">
-            <p>{content}</p>
+            <p className="sm:truncate">{content}</p>
           </div>
         </div>
         <div className="w-1/12 mt-1 mx-2 flex justify-end">

@@ -27,9 +27,8 @@ const noteListRows = () => {
 const SideNavBar = () => {
   const { mode } = useTheme()
   return (
-    <div>
-      <div className="mx-2 overflow-scroll">
-
+    <div className="flex flex-col min-h-screen">
+      <div className="mx-2 ">
         <div className="mt-8">
           <div className={"flex rounded my-1 px-2 py-1 " + (mode === 'light' ? 'bg-search-input-background-light' : 'bg-search-input-background-dark')}>
             <img className="h-4 w-4 " src={mode === 'light' ? searchIconLight : searchIconDark} alt="search"/>
@@ -40,7 +39,7 @@ const SideNavBar = () => {
           </div>  
         </div>
 
-        <table className="table-fixed align-middle mt-2">
+        <table className="table-fixed mt-2 flex-grow">
           <tbody className="text-xs">
             {categoryRows()}
           </tbody>
@@ -48,13 +47,15 @@ const SideNavBar = () => {
 
         <hr className="mx-2 border-search-input-background-light my-2"></hr>
 
-        <table className="table-fixed align-middle mt-2">
-          <tbody className="text-xs">
-            {noteListRows()}
-          </tbody>
-        </table>
-        </div>
-      <div className="shadow">
+        <div className="flex-grow">
+          <table className="table-fixed align-middle mt-2">
+            <tbody className="text-xs">
+              {noteListRows()}
+            </tbody>
+          </table>
+        </div>  
+      </div>
+      <div className="">
         <button className="w-full focus:outline-none">
           <span className=" flex mx-2 my-2">
             <div className="w-1/6 mt-1">
