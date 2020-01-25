@@ -14,7 +14,7 @@ import ellipsisDark from '../../img/ellipsis-dark.png'
 
 const listRows = () => {
   return list.map(listItem => {
-    return <ListItem {...listItem}/>
+    return <ListItem key={listItem.content} {...listItem}/>
   });
 };
 
@@ -35,10 +35,10 @@ const MainListView = () => {
           </div>
         </div>
         <div className="text-right mt-4">
-          <button>{<img className="h2 w-3" src={mode === 'light' ? addUserLight : addUserDark} alt="add user"/>}</button>
+          <button>{<img className="h-3 w-3" src={mode === 'light' ? addUserLight : addUserDark} alt="add user"/>}</button>
         </div>
         <div className="text-right mt-4">
-          <button>{<img className="h2 w-3" src={mode === 'light' ? ellipsisLight : ellipsisDark} alt="more optionz"/>}</button>
+          <button>{<img className="h-3 w-3" src={mode === 'light' ? ellipsisLight : ellipsisDark} alt="more optionz"/>}</button>
         </div>
         <div className="text-right mt-4">
           <ToggleButton />

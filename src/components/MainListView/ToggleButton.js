@@ -5,9 +5,9 @@ const ToggleButton = () => {
   const { changeMode } = useTheme()
 
   return (
-    <label class="switch">
+    <label className="switch">
       <input type="checkbox" onChange={() => changeMode()}/>
-      <span class="slider round"></span>
+      <span className="slider round"></span>
     </label>
   );
 }

@@ -9,13 +9,13 @@ import darkModeAddIcon from '../../img/add_white.png';
 
 const categoryRows = () => {
   return categories.map(category => {
-    return <CategoryListItem {...category}/>
+    return <CategoryListItem key={category.text} {...category}/>
   });
 };
 
 const noteListRows = () => {
   return notes.map(note => {
-    return <NoteListItem {...note}/>
+    return <NoteListItem key={note.content} {...note}/>
   });
 };
 
@@ -55,7 +55,7 @@ const SideNavBar = () => {
         <div className="mx-2 text-sm w-4/6">
           <button><p>New List</p></button>
         </div>
-        <div className="w-1/6 h4 w-4">
+        <div className="w-1/6 h-4 w-4">
           <button>
             {<img src={mode === 'light' ? lightModeAddIcon : darkModeAddIcon} alt="New List"/>}
           </button>
