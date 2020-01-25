@@ -1,23 +1,9 @@
 import React from 'react';
-
-import flag from '../../img/icons/flag.png'
-import calendar from '../../img/icons/calendar.png'
-import star from '../../img/icons/star.png'
-import sun from '../../img/icons/sun.png'
-import task from '../../img/icons/task.png'
+import icons from '../../img/icon'
 
 const CategoryListItem = ({ icon, text, number }) => {
-  
-  const icons = [
-    { title: "flag", image: flag },
-    { title: "star", image: star },
-    { title: "sun", image: sun },
-    { title: "task", image: task },
-    { title: "calendar", image: calendar}
-  ]
-
   const componentIcon = icons.filter(image => image.title === icon).pop()
-
+  
   return (
     <tr>
       <td className="px-2 w-1/8">
