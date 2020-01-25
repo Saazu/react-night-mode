@@ -1,5 +1,5 @@
 import React from 'react';
-import list from '../../img/list.png'
+import list from '../../img/list.png';
 
 const NoteListItem = ({ content }) => {
   //const images = require.context('../../img', true);
@@ -15,6 +15,6 @@ const NoteListItem = ({ content }) => {
       </td>
     </tr>
   );
-}
+};
 
 export default NoteListItem;

@@ -1,25 +1,25 @@
 [
   { 
-    "icon": "../img/sun.png",
+    "icon": "sun",
     "text": "My Day"
   },
   {
-    "icon": "../img/star.png",
+    "icon": "star",
     "text": "Important",
     "number": "25"
   },
   {
-    "icon": "../img/calendar.png",
+    "icon": "calendar",
     "text": "Planned",
     "number": "4"
   },
   {
-    "icon": "../img/flag.png",
+    "icon": "flag",
     "text": "Flagged email",
     "number": "3"
   },
   {
-    "icon": "../img/task.png",
+    "icon": "task",
     "text": "Tasks",
     "number": "458"
   }
