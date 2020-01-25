@@ -59,7 +59,7 @@ const MainListView = () => {
         </div>
       </div>
       
-      <div>
+      <div className="mt-1">
         {listRows()}
       </div>
 
