@@ -8755,6 +8755,19 @@ input:checked + .slider:before {
   border-radius: 50%;
 }
 
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #323232;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #323232;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: #323232;
+}
+
 @media (min-width: 640px) {
   .sm\:sr-only {
     position: absolute;
