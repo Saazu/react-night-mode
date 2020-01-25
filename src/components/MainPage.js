@@ -1,6 +1,6 @@
 import React from 'react';
-import MainListView from './MainListView/MainListView';
-import SideNavBar from './Sidebar/SideNavBar';
+import MainListView from './MainListView';
+import SideNavBar from './Sidebar';
 import { useTheme } from '../providers/useTheme';
 
 const MainPage = () => {
