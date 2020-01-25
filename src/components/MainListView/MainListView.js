@@ -35,10 +35,10 @@ const MainListView = () => {
         </div>
         
         <div className="flex mt-4">
-          <div className={"mx-2 px-4 pt-1 rounded " + (mode === 'light' ? 'bg-select-options-background-light' : "bg-list-item-background-dark")}>
+          <div className={"mx-1 px-4 pt-1 rounded " + (mode === 'light' ? 'bg-select-options-background-light' : "bg-list-item-background-dark")}>
             <button>{<img className="h-3 w-3" src={mode === 'light' ? addUserLight : addUserDark} alt="add user"/>}</button>
           </div>
-          <div className={"mx-2 px-4 pt-1 rounded " + (mode === 'light' ? 'bg-select-options-background-light' : "bg-list-item-background-dark")}>
+          <div className={"mx-1 px-4 pt-1 rounded " + (mode === 'light' ? 'bg-select-options-background-light' : "bg-list-item-background-dark")}>
             <button>{<img className="h-3 w-3" src={mode === 'light' ? ellipsisLight : ellipsisDark} alt="more optionz"/>}</button>
           </div>
           <div className="ml-1">
@@ -49,13 +49,13 @@ const MainListView = () => {
 
       <div className="flex">
         <div className="">
-          <select className={"" + (mode === 'light' ? "text-black text-sm bg-select-options-background-light " : "text-list-view-background-color-light bg-list-item-background-dark")}>
+          <select className={"" + (mode === 'light' ? "text-white text-sm bg-select-options-background-light " : "text-list-view-background-color-light bg-list-item-background-dark")}>
             <option className="my-1 bg-select-options-background-light">Sorted by Importance</option>
           </select>
         </div>
 
         <div className={"mx-1 px-1 rounded " + (mode === 'light' ? "bg-select-options-background-light rounded" : "bg-list-item-background-dark")}>
-          <button>{<img className="h2 w-3" src={mode === 'light' ? deleteIconLight : deleteIconDark} alt="delete"/>}</button>
+          <button>{<img className="h2 w-3 " src={mode === 'light' ? deleteIconLight : deleteIconDark} alt="delete"/>}</button>
         </div>
       </div>
       
