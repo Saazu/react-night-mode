@@ -27,13 +27,14 @@ const noteListRows = () => {
 const SideNavBar = () => {
   const { mode } = useTheme()
   return (
-    <div className="flex flex-col min-h-screen">
+    <div className="flex flex-col h-full">
       <div className="mx-2 ">
         <div className="mt-8">
           <div className={"flex rounded my-1 px-2 py-1 " + (mode === 'light' ? 'bg-search-input-background-light' : 'bg-search-input-background-dark')}>
             <img className="h-4 w-4 " src={mode === 'light' ? searchIconLight : searchIconDark} alt="search"/>
             <input 
-              className={"w-full h-5 rounded text-xs text-black pl-2 focus:outline-none " + (mode === 'light' ? "bg-search-input-background-light" : "bg-search-input-background-dark")}
+              className={"w-full h-5 rounded text-xs text-black pl-2 focus:outline-none placeholder-gray-600 " + 
+                        (mode === 'light' ? "bg-search-input-background-light" : "bg-search-input-background-dark")}
               placeholder="Search"
             />
           </div>  
@@ -53,30 +54,31 @@ const SideNavBar = () => {
               {noteListRows()}
             </tbody>
           </table>
-        </div>  
-      </div>
-      <div className="">
-        <button className="w-full focus:outline-none">
-          <span className=" flex mx-2 my-2">
-            <div className="w-1/6 mt-1">
-              <div className="h-4 w-4">
-                <img src={mode === 'light' ? lightModeAddIcon : darkModeAddIcon} alt="New List"/>       
+        </div>
+        <div className="">
+          <button className="w-full focus:outline-none">
+            <span className=" flex mx-2 my-2">
+              <div className="w-1/6 mt-1">
+                <div className="h-4 w-4">
+                  <img src={mode === 'light' ? lightModeAddIcon : darkModeAddIcon} alt="New List"/>       
+                </div>
               </div>
-            </div>
-          
-            <div className="text-xs text-left w-4/6">
-              <p className="font-hairline mt-1">New List</p>
-            </div>
+            
+              <div className="text-xs text-left w-4/6">
+                <p className="font-hairline mt-1">New List</p>
+              </div>
 
-            <div className="w-1/6 mt-1">
-              <div className="h-4 w-4 ml-4">
-                <img src={mode === 'light' ? createDocIconLight : createDocIconDark} alt="New List"/>
-              </div>            
-            </div>
+              <div className="w-1/6 mt-1">
+                <div className="h-4 w-4 ml-4">
+                  <img src={mode === 'light' ? createDocIconLight : createDocIconDark} alt="New List"/>
+                </div>            
+              </div>
 
-          </span>  
-        </button>
+            </span>  
+          </button>
+        </div>
       </div>
+      
     </div>
   );
 };

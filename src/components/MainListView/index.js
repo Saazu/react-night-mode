@@ -22,7 +22,7 @@ const listRows = () => {
 const MainListView = () => {
   const { mode } = useTheme()
   return (
-    <div className="mx-2 my-4 flex flex-col min-h-screen">
+    <div className="mx-2 my-4 flex flex-col h-full">
       <div className="flex justify-between">
         <div className="flex">
           <div className="h-8 w-8 mt-1">
@@ -46,7 +46,8 @@ const MainListView = () => {
             >
             <button>{<img className="h-3 w-3" 
                       src={mode === 'light' ? addUserLight : addUserDark} 
-                      alt="add user"/>}</button>
+                      alt="add user"/>}
+            </button>
           </div>
           <div className={"mx-1 px-4 pt-1 rounded " + 
                           (mode === 'light' ? 'bg-select-options-background-light' : "bg-list-item-background-dark")}>
@@ -57,7 +58,7 @@ const MainListView = () => {
           </div>
         </div>
       </div>
-      
+
       <div className="flex">
         <div className="">
           <select className={(mode === 'light' ? 
@@ -88,7 +89,8 @@ const MainListView = () => {
         <div className={"flex rounded my-1 px-2 py-1 " + 
                         (mode === 'light' ? 
                           'bg-select-options-background-light' : 
-                          "bg-list-item-background-dark")}>
+                          "bg-list-item-background-dark")}
+        >
           <img className="h-4 w-4 mt-2 " src={mode === 'light' ? addListLight : addTaskDark} alt="search"/>
           <input 
             className={"w-full h-8 rounded text-sm pl-2 focus:outline-none " + 
