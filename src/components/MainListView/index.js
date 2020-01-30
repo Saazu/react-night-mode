@@ -16,9 +16,10 @@ import addTaskDark from '../../img/add_task_dark.png';
 
 const MainListView = () => {
   const { mode } = useTheme();
-  const [ newListInput, setNewListInput ] = useState('');
+  const [ newListInput, setNewListInput ] = useState(''); // state when a new list is being created
   const [ listItems, setListItems ] = useState(list);
 
+  //this function adds a new list item
   const addListItem = event => {
     if (event.keyCode === 13 || event.charCode === 13) {
       const content = newListInput;
@@ -31,11 +32,15 @@ const MainListView = () => {
     }
   };
 
+  //this function is passed to child components
+  //and deletes selected list item
   const deleteListItem = (id) => {
     const newList = listItems.filter(item => item.id !== id);
     setListItems(newList);
   };
 
+  //this function is passed to list item components
+  //and save an editted list item to the list of notes
   const editListItem = (id, newContent) => {
     const newListItem = {
       id: listItems.length + 1,
@@ -44,6 +49,7 @@ const MainListView = () => {
     setListItems(listItems.map(item => item.id !== id ? item : newListItem));
   }
 
+  //function returns a component whose li children are clickable and draggable
   const listRows = () => {
     return <ReactSortable list={listItems} setList={setListItems}>
       {listItems.map(listItem => 
@@ -57,22 +63,7 @@ const MainListView = () => {
       )}
     </ReactSortable>
   };
-  /*
-  const listRows = () => {
-    return listItems.map((listItem, index) => {
-      return <ListItem
-                index={index}
-                deleteListItem={deleteListItem}
-                newListInput={newListInput}
-                editListItem={editListItem}
-                key={listItem.id} 
-                {...listItem}
-              />;
-    });
-  };
-  */
 
-  console.log(listItems)
   return (
     <div className="mx-2 my-4 flex flex-col h-full">
       <div className="flex justify-between">

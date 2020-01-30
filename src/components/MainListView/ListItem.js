@@ -11,6 +11,8 @@ const ListItem = ({ id, content, deleteListItem, editListItem }) => {
   const [ starred, setStarred ] = useState("starred");
   const [inEditMode, setInEditMode ] = useState(false);
 
+  //this function handles the key press of the 'Enter' key when
+  //editting a list item
   const handleEnterKey = event => {
     if(event.keyCode === 13 || event.charCode === 13) {
       setInEditMode(false);
@@ -18,10 +20,13 @@ const ListItem = ({ id, content, deleteListItem, editListItem }) => {
     }
   };
 
+  //this changes the state to true if a list item is being editted
+  //and false if it is not being editted
   const handleEditMode = () => {
     setInEditMode(!inEditMode);
   };
 
+  //this function adds a star to a list item
   const handleStarListItem = () => {
     if (starred === 'starred') {
       setStarred('unstarred')
@@ -29,11 +34,6 @@ const ListItem = ({ id, content, deleteListItem, editListItem }) => {
       setStarred('starred')
     }
   };
-
-  const handleContentEdit = event => {
-    event.preventDefault()
-
-  }
 
   console.log(`Content: ${content}`)
   return (
@@ -47,7 +47,7 @@ const ListItem = ({ id, content, deleteListItem, editListItem }) => {
             {
               inEditMode 
               ? 
-              <input className="text-black" type="text" autoFocus defaultValue={content} onChange={handleContentEdit} onKeyPress={handleEnterKey}/> 
+              <input className="text-black" type="text" autoFocus defaultValue={content} onKeyPress={handleEnterKey}/> 
               :
               <p className="sm:truncate">{content}</p>
             }
