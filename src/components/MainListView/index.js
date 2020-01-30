@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { useState } from 'react';
+import { ReactSortable } from "react-sortablejs";
 import { useTheme } from '../../providers/useTheme';
 import spanner from '../../img/spanner.png';
 import ListItem from './ListItem';
@@ -13,14 +14,65 @@ import ellipsisDark from '../../img/ellipsis-dark.png';
 import addListLight from '../../img/add_white.png';
 import addTaskDark from '../../img/add_task_dark.png';
 
-const listRows = () => {
-  return list.map(listItem => {
-    return <ListItem key={listItem.content} {...listItem}/>
-  });
-};
-
 const MainListView = () => {
-  const { mode } = useTheme()
+  const { mode } = useTheme();
+  const [ newListInput, setNewListInput ] = useState('');
+  const [ listItems, setListItems ] = useState(list);
+
+  const addListItem = event => {
+    if (event.keyCode === 13 || event.charCode === 13) {
+      const content = newListInput;
+      const newListItem = {
+        id: listItems.length + 1,
+        content
+      };
+      setListItems(listItems.concat(newListItem));
+      setNewListInput('');
+    }
+  };
+
+  const deleteListItem = (id) => {
+    const newList = listItems.filter(item => item.id !== id);
+    setListItems(newList);
+  };
+
+  const editListItem = (id, newContent) => {
+    const newListItem = {
+      id: listItems.length + 1,
+      content: newContent
+    };
+    setListItems(listItems.map(item => item.id !== id ? item : newListItem));
+  }
+
+  const listRows = () => {
+    return <ReactSortable list={listItems} setList={setListItems}>
+      {listItems.map(listItem => 
+        <ListItem
+          deleteListItem={deleteListItem}
+          newListInput={newListInput}
+          editListItem={editListItem}
+          key={listItem.id} 
+          {...listItem}
+        />
+      )}
+    </ReactSortable>
+  };
+  /*
+  const listRows = () => {
+    return listItems.map((listItem, index) => {
+      return <ListItem
+                index={index}
+                deleteListItem={deleteListItem}
+                newListInput={newListInput}
+                editListItem={editListItem}
+                key={listItem.id} 
+                {...listItem}
+              />;
+    });
+  };
+  */
+
+  console.log(listItems)
   return (
     <div className="mx-2 my-4 flex flex-col h-full">
       <div className="flex justify-between">
@@ -92,7 +144,10 @@ const MainListView = () => {
                           "bg-list-item-background-dark")}
         >
           <img className="h-4 w-4 mt-2 " src={mode === 'light' ? addListLight : addTaskDark} alt="search"/>
-          <input 
+          <input
+            value={newListInput}
+            onChange={event => setNewListInput(event.target.value)}
+            onKeyPress={addListItem}
             className={"w-full h-8 rounded text-sm pl-2 focus:outline-none " + 
                         (mode === 'light' ? "bg-select-options-background-light placeholder-white text-white" : 
                                   // eslint-disable-next-line no-multi-str
@@ -105,6 +160,6 @@ const MainListView = () => {
     </div>
     
   );
-}
+};
 
 export default MainListView;

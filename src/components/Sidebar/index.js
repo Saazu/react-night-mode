@@ -6,11 +6,10 @@ import categories from './categories.json';
 import notes from './notes.json';
 import lightModeAddIcon from '../../img/add.png';
 import darkModeAddIcon from '../../img/add_white.png';
-import createDocIconLight from '../../img/create_doc_light.png'
-import createDocIconDark from '../../img/create_doc_dark.png'
-import searchIconDark from '../../img/search_dark.png'
-import searchIconLight from '../../img/search_light.png'
-
+import createDocIconLight from '../../img/create_doc_light.png';
+import createDocIconDark from '../../img/create_doc_dark.png';
+import searchIconDark from '../../img/search_dark.png';
+import searchIconLight from '../../img/search_light.png';
 
 const categoryRows = () => {
   return categories.map(category => {
@@ -28,23 +27,24 @@ const SideNavBar = () => {
   const { mode } = useTheme()
   return (
     <div className="flex flex-col h-full">
-      <div className="mx-2 ">
-        <div className="mt-8">
-          <div className={"flex rounded my-1 px-2 py-1 " + (mode === 'light' ? 'bg-search-input-background-light' : 'bg-search-input-background-dark')}>
-            <img className="h-4 w-4 " src={mode === 'light' ? searchIconLight : searchIconDark} alt="search"/>
-            <input 
-              className={"w-full h-5 rounded text-xs text-black pl-2 focus:outline-none placeholder-gray-600 " + 
-                        (mode === 'light' ? "bg-search-input-background-light" : "bg-search-input-background-dark")}
-              placeholder="Search"
-            />
-          </div>  
-        </div>
+      <div className="mx-2 mt-8 ">
+        
+        <div className={"flex rounded my-1 px-2 py-1 " + (mode === 'light' ? 'bg-search-input-background-light' : 'bg-search-input-background-dark')}>
+          <img className="h-4 w-4 " src={mode === 'light' ? searchIconLight : searchIconDark} alt="search"/>
+          <input 
+            className={"w-full h-5 rounded text-xs text-black pl-2 focus:outline-none placeholder-gray-600 " + 
+                      (mode === 'light' ? "bg-search-input-background-light" : "bg-search-input-background-dark")}
+            placeholder="Search"
+          />
+        </div>  
 
-        <table className="table-fixed mt-2 flex-grow">
-          <tbody className="text-xs">
-            {categoryRows()}
-          </tbody>
-        </table>
+        <div>
+          <table className="table-fixed mt-2 flex-grow">
+            <tbody className="text-xs">
+              {categoryRows()}
+            </tbody>
+          </table>
+        </div>
 
         <hr className="mx-2 border-search-input-background-light my-2"></hr>
 
@@ -55,30 +55,29 @@ const SideNavBar = () => {
             </tbody>
           </table>
         </div>
-        <div className="">
-          <button className="w-full focus:outline-none">
-            <span className=" flex mx-2 my-2">
-              <div className="w-1/6 mt-1">
-                <div className="h-4 w-4">
-                  <img src={mode === 'light' ? lightModeAddIcon : darkModeAddIcon} alt="New List"/>       
-                </div>
-              </div>
-            
-              <div className="text-xs text-left w-4/6">
-                <p className="font-hairline mt-1">New List</p>
-              </div>
-
-              <div className="w-1/6 mt-1">
-                <div className="h-4 w-4 ml-4">
-                  <img src={mode === 'light' ? createDocIconLight : createDocIconDark} alt="New List"/>
-                </div>            
-              </div>
-
-            </span>  
-          </button>
-        </div>
       </div>
-      
+      <div className="">
+        <button className="w-full focus:outline-none">
+          <span className=" flex mx-2 my-2">
+            <div className="w-1/6 mt-1">
+              <div className="h-4 w-4">
+                <img src={mode === 'light' ? lightModeAddIcon : darkModeAddIcon} alt="New List"/>       
+              </div>
+            </div>
+          
+            <div className="text-xs text-left w-4/6">
+              <p className="font-hairline mt-1">New List</p>
+            </div>
+
+            <div className="w-1/6 mt-1">
+              <div className="h-4 w-4 ml-4">
+                <img src={mode === 'light' ? createDocIconLight : createDocIconDark} alt="New List"/>
+              </div>            
+            </div>
+
+          </span>  
+        </button>
+      </div>
     </div>
   );
 };
